@@ -9,7 +9,7 @@ function geddanify() {
     for(var i = 0; i < geddans.length; i++) {
       var element = geddans.item(i);
       var transform = 'matrix(' + random() + ',' + random() + ',' + random() + ',' + random() + ',' + random() + ',' + random() + ')';
-      element.style.webkitTransform = transform;
+      element.style.transform = transform;
     }
   }, 20);
 
